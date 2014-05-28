@@ -1,0 +1,26 @@
+#gameboard {
+  display : flex;
+  flex-wrap : wrap;
+  max-width : 1000px;
+}
+#gameboard > span {
+  height : 200px;
+  width : 200px;
+  content : &nbsp;
+  margin : 2px;
+}
+
+.red {
+  background-color : red;
+}
+.blue {
+  background-color : blue;
+}
+
+.matched {
+  background-color : grey;
+  content : 'Matched';
+}
+.hide {
+  background-color : black;
+}
