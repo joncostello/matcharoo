@@ -3,6 +3,7 @@
   width : 200px;
   content : &nbsp;
   margin : 2px;
+  display: inline-block;
 }
 
 .red {
